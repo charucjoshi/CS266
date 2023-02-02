@@ -24,6 +24,6 @@ int main(){
 	for(int i = 0; i < start; ++i)
 		rot[i] = buffer[k++];
 
-	printf("%d  %d  %s",start, length, rot);
+	printf("%s", rot);
 	return 0;
 }
